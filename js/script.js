@@ -74,7 +74,7 @@ window.onload = function()
         var ambient = new THREE.AmbientLight( "0x111111" );
         scene.add( ambient );
 
-        light = new THREE.SpotLight( "red" );
+        light = new THREE.SpotLight( "blue" );
         light.position.set( -300, 30, 200);
         light.target.position.set( 0, 0, 0 );
         light.castShadow = true;
